@@ -1,0 +1,22 @@
+.spirograph {
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-1
+}
+.spirograph__canvas {
+	height:100%;
+	max-width:100%;
+	opacity: 0.75;
+	width:100%
+}
+@media (max-width:760px) {
+	.spirograph__canvas {
+		opacity:.88
+	}
+	.spirograph__canvas--up-mob {
+		margin-top:-40vw
+	}
+}
